@@ -1,0 +1,18 @@
+{
+    "name": "Tonoobvill",
+    "short_name": "Tonoobvill",
+    "description": "Archive of Tonoobvill website from August 7, 2023",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "lang": "en",
+    "background_color": "#111111",
+    "theme_color": "#111111",
+    "icons": [
+      {
+          "src": "assets/img/logo.png",
+          "sizes": "48x48 72x72 96x96 128x128 256x256 512x512",
+          "type": "image/svg+xml",
+          "purpose": "any"
+      }
+    ]
+  }

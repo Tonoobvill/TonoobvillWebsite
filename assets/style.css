@@ -1,0 +1,154 @@
+@font-face {
+  font-display: swap;
+  font-family: "Splatfont-2";
+  src: url(./fonts/Splatfont2.ttf);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #1f1f20;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #313131;
+}
+
+body {
+  background-color: #111;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url(./img/bg.svg);
+  background-color: #111;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 8;
+  margin: 0;
+  padding: 0;
+  box-shadow: inset 0 0 200px #000;
+  cursor: default;
+  pointer-events: none;
+}
+
+#logo {
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10vw;
+  color: #eee;
+  font-family: "Splatfont-2";
+}
+
+#logo .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+  filter: drop-shadow(0 0 5px #000);
+}
+
+h1 {
+  font-size: 10vw;
+  color: #eee;
+  font-family: "Splatfont-2";
+}
+
+.header-main {
+  height: 2vw;
+  background-image: linear-gradient(#0008, #101010);
+}
+
+main {
+  padding-top: 2vw;
+  width: 100%;
+  background-color: #101010;
+}
+
+.section-gallery {
+  height: auto;
+  width: auto;
+  padding-bottom: 50px;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vw;
+  width: 100%;
+  background-color: #101010;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 3vw;
+  padding: 0;
+  text-align: center;
+  height: 3vw;
+  font-size: 5vw;
+  color: #eee;
+  font-family: "Splatfont-2";
+  filter: drop-shadow(0 0 5px #000);
+  cursor: default;
+}
+
+.images {
+  margin: 2vw;
+  height: auto;
+  display: grid;
+  gap: 1vw;
+  grid-template-columns: auto auto;
+}
+
+.image {
+  background-color: #eee;
+  border: 5px solid #eee;
+  filter: drop-shadow(0 0 5px #000);
+  height: 20vw;
+  aspect-ratio: 16 / 9;
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+.image:hover {
+  border: 5px solid #eee;
+  filter: contrast(120%);
+  transform: scale(1);
+}
+
+.button {
+  font-family: "Splatfont-2";
+  font-size: 20px;
+  width: 200px;
+  color: #202020;
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: #eee;
+  text-decoration: none;
+}
+
+.button:hover {
+  font-family: "Splatfont-2";
+  color: #111;
+  background-color: #bebebe;
+  text-decoration: none;
+}
